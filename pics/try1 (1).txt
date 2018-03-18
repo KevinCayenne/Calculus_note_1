@@ -1,0 +1,24 @@
+\documentclass[10pt]{article}
+\usepackage{pgf,tikz}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\pagestyle{empty}
+\begin{document}
+\definecolor{ffqqqq}{rgb}{1,0,0}
+\definecolor{cqcqcq}{rgb}{0.7529411764705882,0.7529411764705882,0.7529411764705882}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]
+\draw [color=cqcqcq,, xstep=2cm,ystep=2cm] (-6.189510471270259,-3.1998281258711616) grid (11.700197974254927,7.550041523009443);
+\draw[->,color=black] (-6.189510471270259,0) -- (11.700197974254927,0);
+\foreach \x in {-6,-4,-2,2,4,6,8,10}
+\draw[shift={(\x,0)},color=black] (0pt,2pt) -- (0pt,-2pt) node[below] {\footnotesize $\x$};
+\draw[->,color=black] (0,-3.1998281258711616) -- (0,7.550041523009443);
+\foreach \y in {-2,2,4,6}
+\draw[shift={(0,\y)},color=black] (2pt,0pt) -- (-2pt,0pt) node[left] {\footnotesize $\y$};
+\draw[color=black] (0pt,-10pt) node[right] {\footnotesize $0$};
+\clip(-6.189510471270259,-3.1998281258711616) rectangle (11.700197974254927,7.550041523009443);
+\draw[line width=2pt,color=ffqqqq,smooth,samples=100,domain=-6.189510471270259:11.700197974254927] plot(\x,{1/((\x)-2)^(2)});
+\begin{scriptsize}
+\draw[color=ffqqqq] (-3.361652970352039,1.0219023985492992) node {$f(x) = 1 / (x - 2)²$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{document}
