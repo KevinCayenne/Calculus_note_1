@@ -22,7 +22,7 @@ $$
   $$
   f(x) = x^2
   $$
-  ![](D:\Data\CNotebook\微積分\圖片檔\desmos-graph1.png)
+  ![](D:\Data\CNotebook\微積分\Calculus_note_1\pics\desmos-graph1.png)
 - 當 $x$ 走到2時，有兩種走法:
   1. 從2的右邊走到2 $(x→2+)$
 
