@@ -22,7 +22,7 @@ $$
   $$
   f(x) = x^2
   $$
-  ![](D:\Data\CNotebook\微積分\Calculus_note_1\pics\desmos-graph1.png)
+  ![](..\pics\desmos-graph1.png)
 - 當 $x$ 走到2時，有兩種走法:
   1. 從2的右邊走到2 $(x→2+)$
 
@@ -45,7 +45,7 @@ $\lim _{x\rightarrow \sqrt {3}}f\left( x\right) =-\sqrt {5}$，這是一個永�
 
 ------
 - **第二個圖形**，圖形不包含 $(2,4)$，在 $x=2$ 沒有定義，換句話說此函數只定義在不等於 $2$ :
-  ![](D:\Data\CNotebook\微積分\Calculus_note_1\pics\desmos-graph1.png)
+  ![](..\pics\desmos-graph1.png)
 
 - 什麼叫函數 $(function)$? 構成函數的三大要素：
 
@@ -66,7 +66,7 @@ A: $lim _{x\rightarrow  {2}}f(x)= 4$
 ------
 - **第三個圖形** 請問這個圖形在講什麼？在 $x=2$ 時，定義成 $8$ :
 
-  ![](D:\Data\CNotebook\微積分\Calculus_note_1\pics\下載 (1).png)
+  ![](..\pics\下載 (1).png)
 
 Q: $lim _{x\rightarrow  {2}}f(x)= $ ? 
 A: $lim _{x\rightarrow  {2}}f(x)= 4$
@@ -76,7 +76,7 @@ A: $lim _{x\rightarrow  {2}}f(x)= 4$
 ------
 - **第四個圖形** 
 
-  ![](D:\Data\CNotebook\微積分\Calculus_note_1\pics\下載 (2).png)
+  ![](..\pics\下載 (2).png)
 
 Q: $lim _{x\rightarrow  {2}}f(x)= $ ?
 A: 不存在
@@ -88,7 +88,7 @@ A: 不存在
 
 - **第五個圖形** 當 $x$ 靠近 $2$ 時，會發生無窮大，此問題可以問，因為是問 $x$ 逼到 $2$ 時會發生什麼事:
 
-  ![](D:\Data\CNotebook\微積分\Calculus_note_1\pics\try3.png)
+  ![](..\pics\try3.png)
 
 Q: $lim _{x\rightarrow  {2}}f(x)= ​$ ?
 A: 不存在
@@ -98,7 +98,7 @@ A: 不存在
 ------
 - **第六個圖形**
 
-  ![](D:\Data\CNotebook\微積分\Calculus_note_1\pics\try4.png)
+  ![](..\pics\try4.png)
 
 Q: $lim _{x\rightarrow  {2}}f(x)= $ ?
 A: 不存在
@@ -110,7 +110,7 @@ A: 不存在
 - **第七個圖形**
 
 
-  ![](D:\Data\CNotebook\微積分\Calculus_note_1\pics\try3 (1).png)
+  ![](..\pics\try3 (1).png)
 
 Q: $lim _{x\rightarrow  {2}}f(x)= $ ?
 A: 不存在
@@ -126,7 +126,7 @@ A: 不存在
   A: $|c|$
   $|x|= x$ as $x>=0$ , $-x$ as $x<0$
 
-  ![](D:\Data\CNotebook\微積分\Calculus_note_1\pics\geogebra-export.png)
+  ![](..\pics\geogebra-export.png)
 
 
 - e.g. 2 
@@ -136,7 +136,7 @@ A: 不存在
   A: 不存在，Therefore 極限不存在(The limit does't exist)
   $\dfrac {\left| x\right| }{x}$ : $x=1$ as $x>0$ 因為分母為 $0$ 沒有定義, $-1$ as $x<0$
 
-  ![](D:\Data\CNotebook\微積分\Calculus_note_1\pics\geogebra-export (1).png)
+  ![](..\pics\geogebra-export (1).png)
 
 ------
 $Def:$
